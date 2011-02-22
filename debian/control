@@ -1,4 +1,4 @@
-Source: canaima-ofimatica
+Source: canaima-accesibilidad
 Section: misc
 Priority: optional
 Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
@@ -6,11 +6,11 @@ Uploaders: José Miguel Parrella Romero <jparrella@onuva.com>, Carlos David Marr
 Build-Depends: debhelper (>= 7.0.50~), cdbs
 Standards-Version: 3.9.1
 Homepage: http://canaima.softwarelibre.gob.ve/
-Vcs-Git: git://gitorious.org/canaima-gnu-linux/canaima-ofimatica.git
-Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-ofimatica/trees/master
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/canaima-accesibilidad.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-accesibilidad/trees/master
 
 Package: canaima-ofimatica
 Architecture: all
-Depends: libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-l10n-es, libreoffice-help-es, libreoffice-java-common, evince, gedit, ${shlibs:Depends}, ${misc:Depends}
+Depends: gnome-orca, gok, dasher, ${shlibs:Depends}, ${misc:Depends}
 Description: Programas de ofimática para Canaima GNU/Linux
  Este metapaquete provee los programas de ofimática para Canaima GNU/Linux.
