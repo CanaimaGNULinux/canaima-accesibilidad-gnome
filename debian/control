@@ -9,7 +9,7 @@ Homepage: http://canaima.softwarelibre.gob.ve/
 Vcs-Git: git://gitorious.org/canaima-gnu-linux/canaima-accesibilidad.git
 Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-accesibilidad/trees/master
 
-Package: canaima-ofimatica
+Package: canaima-accesibilidad
 Architecture: all
 Depends: gnome-orca, gok, dasher, ${shlibs:Depends}, ${misc:Depends}
 Description: Programas de ofimática para Canaima GNU/Linux
