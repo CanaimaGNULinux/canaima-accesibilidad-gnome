@@ -1,8 +1,9 @@
 canaima-accesibilidad (3.0+2) unstable; urgency=low
 
   * Modificacion del paquete para que pueda funcionar y establecer un sistema basado en accesibilidad utilizando CANAIMA 3.0 sin necesidad de configurar nada mas.
+  * [1e0c69c] Corrigiendo error en debian/control
 
- -- Carlos Andrés Escobar <carlosescobar70@gmail.com>  Fri, 04 Mar 2011 15:48:34 -0430
+ -- Carlos Andrés Escobar <carlosescobar70@gmail.com>  Fri, 04 Mar 2011 15:53:36 -0430
 
 canaima-accesibilidad (3.0+1) unstable; urgency=low
 
