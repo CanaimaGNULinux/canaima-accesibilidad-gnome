@@ -52,8 +52,8 @@ test_command(){
 	echo "
 		------------  Configurando Daemontools -------------------------
 	     "
-	cp -R -v ./conf/orca /home/${user}/.orca
-	cp -R -v ./conf/daemontools /home/${user}/.daemontools
+	cp -R -v /usr/share/canaima-accesibilidad/conf/orca /home/${user}/.orca
+	cp -R -v /usr/share/canaima-accesibilidad/conf/daemontools /home/${user}/.daemontools
 	chown -R $user:$user /home/$user/.orca
 	chown  -R $user:$user /home/$user/.daemontools
 	#supervise /home/$user/.daemontools/orca
@@ -66,8 +66,8 @@ echo "
 	     "
 	mkdir -v /usr/share/fonts/truetype/braille
 	chown -R -v $user:$user /usr/share/fonts/truetype/braille
-	cp -v ./conf/fonts/braile_font.ttf /usr/share/fonts/truetype/braille
-	cp -v ./conf/fonts/braille_font_new.ttf /usr/share/fonts/truetype/braille
+	cp -v /usr/share/canaima-accesibilidad/conf/fonts/braile_font.ttf /usr/share/fonts/truetype/braille
+	cp -v /usr/share/canaima-accesibilidad/conf/fonts/braille_font_new.ttf /usr/share/fonts/truetype/braille
 
 echo "
 		-----------  Configurando Combinaciones de teclas --------------
