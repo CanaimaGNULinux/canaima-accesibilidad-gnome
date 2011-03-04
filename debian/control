@@ -13,4 +13,4 @@ Package: canaima-accesibilidad
 Architecture: all
 Depends: mesa-utils, modconf, libstdc++5, daemontools, libreoffice, libreoffice-base, tomboy, planner, sox, alsa-base, listen, gxine, mplayer, xine-ui, espeak, festival, brltty, brltty-flite, brltty-x11, kmag,  gnome-orca, gnome-accessibility-themes, gnome-accessibility, libcolorblind0, gnome-mag, libgail-common, mousetweaks, dasher, dasher-data, gok, festvox-palpc16k, festvox-sflpc16k, ${shlibs:Depends}, ${misc:Depends}
 Description: Programas de Accesibilidad para Canaima GNU/Linux
-utilizando CANAIMA.Este metapaquete provee los programas de accesibilidad y configuraciones para que las personas con discapacidad puedan utilizar canaima GNU/Linux.
+ Este metapaquete provee los programas de accesibilidad y configuraciones para que las personas con discapacidad puedan utilizar canaima GNU/Linux.
