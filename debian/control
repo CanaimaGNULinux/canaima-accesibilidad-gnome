@@ -2,7 +2,7 @@ Source: canaima-accesibilidad
 Section: misc
 Priority: optional
 Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
-Uploaders: José Miguel Parrella Romero <jparrella@onuva.com>, Carlos David Marrero <cdmarrero2040@gmail.com>, Orlando Andrés Fiol Carballo <ofiol@indesoft.org.ve>, Carlos Alejandro Guerrero Mora <guerrerocarlos@gmail.com>, Diego Alberto Aguilera Zambrano <diegoaguilera85@gmail.com>, Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>, Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>
+Uploaders: José Miguel Parrella Romero <jparrella@onuva.com>, Carlos David Marrero <cdmarrero2040@gmail.com>, Orlando Andrés Fiol Carballo <ofiol@indesoft.org.ve>, Carlos Alejandro Guerrero Mora <guerrerocarlos@gmail.com>, Diego Alberto Aguilera Zambrano <diegoaguilera85@gmail.com>, Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>, Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>, carlos escobar <carlosescobar70@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), cdbs
 Standards-Version: 3.9.1
 Homepage: http://canaima.softwarelibre.gob.ve/
@@ -11,6 +11,6 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-accesibilidad/trees/
 
 Package: canaima-accesibilidad
 Architecture: all
-Depends: gnome-orca, gok, dasher, ${shlibs:Depends}, ${misc:Depends}
-Description: Programas de ofimática para Canaima GNU/Linux
- Este metapaquete provee los programas de ofimática para Canaima GNU/Linux.
+Depends: mesa-utils, modconf, libstdc++5, daemontools, libreoffice, libreoffice-base, tomboy, planner, sox, alsa-base, listen, gxine, mplayer, xine-ui, espeak, festival, brltty, brltty-flite, brltty-x11, kmag,  gnome-orca, gnome-accessibility-themes, gnome-accessibility, libcolorblind0, gnome-mag, libgail-common, mousetweaks, dasher, dasher-data, gok, festvox-palpc16k, festvox-sflpc16k, ${shlibs:Depends}, ${misc:Depends}
+Description: Programas de Accesibilidad para Canaima GNU/Linux
+utilizando CANAIMA.Este metapaquete provee los programas de accesibilidad y configuraciones para que las personas con discapacidad puedan utilizar canaima GNU/Linux.

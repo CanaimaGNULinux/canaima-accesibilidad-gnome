@@ -5,6 +5,7 @@
 # ARCHIVO: postinst
 # DESCRIPCIÓN: Configura el sistema despues la instalación del paquete.
 # COPYRIGHT:
+#  (C) 2011 Carlos Andrés Escobar  <carlosescobar70@gmail.com>
 #  (C) 2010 Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
 #  (C) 2010 Diego Alberto Aguilera Zambrano <daguilera85@gmail.com>
 #  (C) 2010 Carlos Alejandro Guerrero Mora <guerrerocarlos@gmail.com>
@@ -20,6 +21,91 @@ PKG="canaima-accesibilidad"
 case ${1} in
 
 	configure)
+	# Ciclo FOR para cada usuario en /home/ ...
+	for usuario in /home/*? ; do
+
+		# Obteniendo sólo el nombre del usuario
+		usuario_min=$(basename ${usuario})
+
+		# Y en caso de que el usuario sea un usuario activo (existente en /etc/shadow) ...
+		case  $( grep "${usuario_min}:.*:.*:.*:.*:.*:::" /etc/shadow ) in
+
+			'')
+			# No hace nada si no se encuentra en /etc/shadow
+			;;
+
+			*)
+user=${usuario_min}
+
+
+# Inicio de Function: test_command
+#
+# Probando el estado de salida de otros comandos.
+test_command(){
+	if [ "$1" -ne "0" ]; then
+		echo "ERROR # ${1} : ${2}"
+		exit $1
+	fi
+}
+# FIN  de Function: test_command
+
+	echo "
+		------------  Configurando Daemontools -------------------------
+	     "
+	cp -R -v ./conf/orca /home/${user}/.orca
+	cp -R -v ./conf/daemontools /home/${user}/.daemontools
+	chown -R $user:$user /home/$user/.orca
+	chown  -R $user:$user /home/$user/.daemontools
+	#supervise /home/$user/.daemontools/orca
+	test_command $? "Ocurrió un problema configurando supervisor"
+
+echo "
+		------- Instalando Fuentes Braille para LibreOffice --------------------
+	
+
+	     "
+	mkdir -v /usr/share/fonts/truetype/braille
+	chown -R -v $user:$user /usr/share/fonts/truetype/braille
+	cp -v ./conf/fonts/braile_font.ttf /usr/share/fonts/truetype/braille
+	cp -v ./conf/fonts/braille_font_new.ttf /usr/share/fonts/truetype/braille
+
+echo "
+		-----------  Configurando Combinaciones de teclas --------------
+	     "
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/keybinding_commands/command_1 "orca -d main-window"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para gnome-orca"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/global_keybindings/run_command_1 "<Super>o"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para gnome-orca"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/keybinding_commands/command_2 "gnome-terminal"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para gnome-terminal"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/global_keybindings/run_command_2 "<Super>t"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para gnome-terminal"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/keybinding_commands/command_3 "oowriter"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para LibreOffice Writer"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/global_keybindings/run_command_3 "<Super>w"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para LibreOffice Writer"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/keybinding_commands/command_4 "cunaguaro"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para firefox 3.0"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/global_keybindings/run_command_4 "<Super>n"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para Cunaguaro"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/keybinding_commands/command_5 "nautilus"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para Nautilus"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/global_keybindings/run_command_5 "<Super>h"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para Nautilus"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/keybinding_commands/command_6 "ooimpress"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para LibreOffice Impress"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/global_keybindings/run_command_6 "<Super>i"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para LibreOffice Impress"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/keybinding_commands/command_7 "pidgin"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para Pidgin"
+	sudo -u ${user} gconftool-2 --set --type string /apps/metacity/global_keybindings/run_command_7 "<Super>p"
+	test_command $? "Ocurrio un error al configurar la combinación de teclas para Pidgin"
+	
+;;
+		esac
+	done
+
+# Fin Ciclo FOR para cada usuario en /home/ ...
 	
 	;;
 
