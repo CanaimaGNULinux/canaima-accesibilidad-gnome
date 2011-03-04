@@ -4,8 +4,9 @@ canaima-accesibilidad (3.0+2) unstable; urgency=low
   * [1e0c69c] Corrigiendo error en debian/control
   * [3242fb1] Removiendo binarios de la carpeta debian y agregando
     makefile
+  * [d7eb225] Corrigiendo error en el Makefile
 
- -- Carlos Andrés Escobar <carlosescobar70@gmail.com>  Fri, 04 Mar 2011 16:07:56 -0430
+ -- Carlos Andrés Escobar <carlosescobar70@gmail.com>  Fri, 04 Mar 2011 16:12:19 -0430
 
 canaima-accesibilidad (3.0+1) unstable; urgency=low
 
