@@ -1,3 +1,10 @@
+canaima-accesibilidad (3.0+3) unstable; urgency=low
+
+  * [fea4275] añadiendo paquetes al archivo control y modificacion del
+    archivo postins
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Tue, 22 Mar 2011 16:29:35 -0430
+
 canaima-accesibilidad (3.0+2) unstable; urgency=low
 
   [ Carlos Andrés Escobar ]
