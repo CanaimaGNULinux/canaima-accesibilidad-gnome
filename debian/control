@@ -11,10 +11,9 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-accesibilidad/trees/
 
 Package: canaima-accesibilidad
 Architecture: all
-Depends: cunaguaro-l10n-es-es, mesa-utils, bluetooth, bluez-utils, hplip, modconf, build-essential, libstdc++5, subversion, openssh-server, unrar, sun-java6-jre, network-manager-gnome, module-assistant, pidgin, libreoffice, libreoffice-base, , libreoffice-l10n-es, , myspell-es, tomboy, planner, libreoffice-gtk, sox, alsa-base, listen, gxine, mplayer, xine-ui, espeak, festival, festvox-sflpc16k, festvox-palpc16k, brltty, brltty-flite, brltty-x11, kmag, , gnome-orca, gnome-accessibility-themes, gnome-accessibility, libcolorblind0, kmag, gnome-mag, libgail-common, mousetweaks, dasher, dasher-data, gok, gcompris, childsplay, ${shlibs:Depends}, ${misc:Depends}
+Depends: at-spi, brltty, brltty-flite, brltty-speechd, brltty-x11, cunaguaro-l10n-es-es, mesa-utils, bluetooth, bluez-utils, hplip, modconf, build-essential, libstdc++5, subversion, openssh-server, unrar, sun-java6-jre, network-manager-gnome, module-assistant, pidgin, libreoffice, libreoffice-base, , libreoffice-l10n-es, , myspell-es, tomboy, planner, libreoffice-gtk, sox, alsa-base, listen, gxine, mplayer, xine-ui, espeak, festival, festvox-sflpc16k, festvox-palpc16k, brltty, brltty-flite, brltty-x11, kmag, , gnome-orca, gnome-accessibility-themes, gnome-accessibility, libcolorblind0, kmag, gnome-mag, libgail-common, mousetweaks, dasher, dasher-data, gok, gcompris, childsplay, libcolorblind0,  ${shlibs:Depends}, ${misc:Depends}
 Recommends: pidgin-festival
 Sugiere: wireless-tools
 Description: Programas de Accesibilidad para Canaima GNU/Linux
  Este metapaquete provee los programas de accesibilidad y configuraciones para que las personas con discapacidad puedan utilizar canaima GNU/Linux.
-
 

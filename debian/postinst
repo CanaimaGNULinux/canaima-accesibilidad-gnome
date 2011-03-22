@@ -49,16 +49,7 @@ test_command(){
 }
 # FIN  de Function: test_command
 
-	echo "
-		------------  Configurando Daemontools -------------------------
-	     "
-	cp -R -v /usr/share/canaima-accesibilidad/conf/orca /home/${user}/.orca
-	cp -R -v /usr/share/canaima-accesibilidad/conf/daemontools /home/${user}/.daemontools
-	chown -R $user:$user /home/$user/.orca
-	chown  -R $user:$user /home/$user/.daemontools
-	#supervise /home/$user/.daemontools/orca
-	test_command $? "Ocurrió un problema configurando supervisor"
-
+	
 echo "
 		------- Instalando Fuentes Braille para LibreOffice --------------------
 	
