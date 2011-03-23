@@ -53,8 +53,8 @@ test_command(){
 echo "
 		------------  Configurando Daemontools -------------------------
 	     "
-	cp -r/usr/share/canaima-accesibilidad/conf/orca /home/${user}/.orca
-	cp -r  /usr/share/canaima-accesibilidad/conf/daemontools /home/${user}/.daemontools
+	cp -r /usr/share/canaima-accesibilidad/conf/orca /home/${user}/.orca
+	cp -r /usr/share/canaima-accesibilidad/conf/daemontools /home/${user}/.daemontools
 	chown -R $user.$user /home/$user/.orca
 	test_command $? "Ocurrió un problema configurando supervisor"
 
