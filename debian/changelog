@@ -2,8 +2,10 @@ canaima-accesibilidad (3.0+4) unstable; urgency=low
 
   * [20ffa3c] modificacion del archivo postinst Makefile y añadiendo
     nuevas dependencias en le archivo control
+  * [a17b64f] modificacion del archivo postinst Makefile y añadiendo
+    nuevas dependencias en le archivo control
 
- -- Carlos Escobar <carlosescobar70@gmail.com>  Tue, 22 Mar 2011 22:14:50 -0430
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Tue, 22 Mar 2011 22:15:45 -0430
 
 canaima-accesibilidad (3.0+3) unstable; urgency=low
 
