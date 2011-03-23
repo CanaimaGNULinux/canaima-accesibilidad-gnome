@@ -51,14 +51,12 @@ test_command(){
 
 	
 echo "
-		------- Instalando Fuentes Braille para LibreOffice --------------------
-	
-
+		------------  Configurando Daemontools -------------------------
 	     "
-	mkdir -v /usr/share/fonts/truetype/braille
-	chown -R -v $user:$user /usr/share/fonts/truetype/braille
-	cp -v /usr/share/canaima-accesibilidad/conf/fonts/braile_font.ttf /usr/share/fonts/truetype/braille
-	cp -v /usr/share/canaima-accesibilidad/conf/fonts/braille_font_new.ttf /usr/share/fonts/truetype/braille
+	cp -r/usr/share/canaima-accesibilidad/conf/orca /home/${user}/.orca
+	cp -r  /usr/share/canaima-accesibilidad/conf/daemontools /home/${user}/.daemontools
+	chown -R $user.$user /home/$user/.orca
+	test_command $? "Ocurrió un problema configurando supervisor"
 
 echo "
 		-----------  Configurando Combinaciones de teclas --------------
