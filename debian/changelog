@@ -1,4 +1,17 @@
-<<<<<<< .merge_file_ukIffc
+canaima-accesibilidad (3.0+10) unstable; urgency=low
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [928eb19] Merge branches 'master' and 'upstream' of
+    gitorious.org:canaima-gnu-linux/canaima-accesibilidad
+  * [8d0906a] Cambiando dependencia de sun-java6-jre a openjdk-6-jre.
+  * [e9d15fe] Nueva versión
+
+  [ Carlos Escobar ]
+  * [ca83298] modificacion de los archivos postinst preinst postrm prerm
+    para añadir los agradecimiento de mundo accesible y sus integrantes
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Mon, 28 Mar 2011 12:53:46 -0430
+
 canaima-accesibilidad (3.0+9) unstable; urgency=low
 
   * [7f46f21] modificacion de los archivos postinst preinst postrm prerm
