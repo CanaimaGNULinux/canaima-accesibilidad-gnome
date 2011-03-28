@@ -1,3 +1,10 @@
+canaima-accesibilidad (3.0+9) unstable; urgency=low
+
+  * [7f46f21] modificacion de los archivos postinst preinst postrm prerm
+    para añadir los agradecimiento de mundo accesible y sus integrantes
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Mon, 28 Mar 2011 12:23:28 -0430
+
 canaima-accesibilidad (3.0+8) unstable; urgency=low
 
   * [459f35c] modificacion de los archivos postinst preinst postrm prerm
