@@ -1,3 +1,18 @@
+<<<<<<< .merge_file_ukIffc
+canaima-accesibilidad (3.0+9) unstable; urgency=low
+
+  * [7f46f21] modificacion de los archivos postinst preinst postrm prerm
+    para añadir los agradecimiento de mundo accesible y sus integrantes
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Mon, 28 Mar 2011 12:23:28 -0430
+
+canaima-accesibilidad (3.0+8) unstable; urgency=low
+
+  * [459f35c] modificacion de los archivos postinst preinst postrm prerm
+    para añadir los agradecimiento de mundo accesible y sus integrantes
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Mon, 28 Mar 2011 11:39:15 -0430
+=======
 canaima-accesibilidad (3.0+8) unstable; urgency=low
 
   * [928eb19] Merge branches 'master' and 'upstream' of
@@ -5,6 +20,7 @@ canaima-accesibilidad (3.0+8) unstable; urgency=low
   * [8d0906a] Cambiando dependencia de sun-java6-jre a openjdk-6-jre.
 
  -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 24 Mar 2011 13:51:02 -0430
+>>>>>>> .merge_file_eHzqvc
 
 canaima-accesibilidad (3.0+7) unstable; urgency=low
 
