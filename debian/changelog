@@ -5,6 +5,12 @@ canaima-accesibilidad (3.0+8) unstable; urgency=low
 
  -- Carlos Escobar <carlosescobar70@gmail.com>  Mon, 28 Mar 2011 11:39:15 -0430
 
+  * [928eb19] Merge branches 'master' and 'upstream' of
+    gitorious.org:canaima-gnu-linux/canaima-accesibilidad
+  * [8d0906a] Cambiando dependencia de sun-java6-jre a openjdk-6-jre.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 24 Mar 2011 13:51:02 -0430
+
 canaima-accesibilidad (3.0+7) unstable; urgency=low
 
   * [7a93e41] modificacion del archivo postinstall
