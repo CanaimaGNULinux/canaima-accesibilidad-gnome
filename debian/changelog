@@ -1,3 +1,15 @@
+canaima-accesibilidad (3.0+9) unstable; urgency=low
+
+  * [ca83298] modificacion de los archivos postinst preinst postrm prerm
+    para añadir los agradecimiento de mundo accesible y sus integrantes
+  * [5b27b97] Nueva versión
+  * [b8eb8ef] modificacion de arcivos
+  * [c5858b1] canvio en el archivo copyng
+  * [51ffabb] Nueva versión
+  * [7da1317] cambio en el archivo THANSK
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Mon, 28 Mar 2011 14:21:13 -0430
+
 canaima-accesibilidad (3.0+8) unstable; urgency=low
 
   [ Luis Alejandro Martínez Faneyth ]
