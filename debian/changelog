@@ -1,3 +1,18 @@
+canaima-accesibilidad (3.0+11) unstable; urgency=low
+
+  * [b8eb8ef] modificacion de arcivos
+  * [c5858b1] canvio en el archivo copyng
+  * [51ffabb] Nueva versión
+  * [7da1317] cambio en el archivo THANSK
+  * [f72bbc5] Nueva versión
+  * [58287df] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: control
+  * [a223b1a] Nueva versión
+  * [d7bff31] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: postrm preinst
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Wed, 06 Jul 2011 17:50:01 -0430
+
 canaima-accesibilidad (3.0+10) unstable; urgency=low
 
   [ Luis Alejandro Martínez Faneyth ]
