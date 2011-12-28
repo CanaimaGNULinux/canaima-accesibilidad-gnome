@@ -19,7 +19,7 @@ test:
 		bash -n $${SCRIPT}; \
 	done
 
-	@echo -n "¡TODO BIEN!\n=================================================================================\n\n"
+	@echo -n "¡TODO MARCHA BIEN!\n=================================================================================\n\n"
 
 build:
 
@@ -27,8 +27,8 @@ build:
 
 install:
 
-	mkdir -p $(DESTDIR)/usr/share/canaima-accesibilidad/
-	cp -r conf $(DESTDIR)/usr/share/canaima-accesibilidad/
+	mkdir -p $(DESTDIR)/usr/share/canaima-accesibilidad-visual/
+	cp -r conf $(DESTDIR)/usr/share/canaima-accesibilidad-visual/
 	mkdir -p $(DESTDIR)/usr/share/fonts/truetype/braille/
 	cp conf/fonts/braile_font.ttf $(DESTDIR)/usr/share/fonts/truetype/braille/
 	cp conf/fonts/braille_font_new.ttf $(DESTDIR)/usr/share/fonts/truetype/braille/
@@ -36,7 +36,7 @@ install:
 
 uninstall:
 
-	rm -rf $(DESTDIR)/usr/share/canaima-accesibilidad/
+	rm -rf $(DESTDIR)/usr/share/canaima-accesibilidad-visual/
 
 clean:
 

@@ -1,0 +1,28 @@
+/apps/metacity/keybinding_commands/command_1 "orca -d main-window"
+
+/apps/metacity/global_keybindings/run_command_1 "<Super>o"
+
+/apps/metacity/keybinding_commands/command_2 "gnome-terminal"
+	
+/apps/metacity/global_keybindings/run_command_2 "<Super>t"
+	
+/apps/metacity/keybinding_commands/command_3 "oowriter"
+
+/apps/metacity/global_keybindings/run_command_3 "<Super>w"
+
+/apps/metacity/keybinding_commands/command_4 "cunaguaro"
+
+/apps/metacity/global_keybindings/run_command_4 "<Super>n"
+
+/apps/metacity/keybinding_commands/command_5 "nautilus"
+
+/apps/metacity/global_keybindings/run_command_5 "<Super>h"
+
+/apps/metacity/keybinding_commands/command_6 "ooimpress"
+	
+/apps/metacity/global_keybindings/run_command_6 "<Super>i"
+
+/apps/metacity/keybinding_commands/command_7 "pidgin"
+
+/apps/metacity/global_keybindings/run_command_7 "<Super>p"
+
