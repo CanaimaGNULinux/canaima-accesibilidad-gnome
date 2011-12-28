@@ -15,7 +15,7 @@ Depends: canaima-accesibilidad-cognitiva, canaima-accesibilidad-motora, canaima-
 Conflicts: canaima-accesibilidad
 Replaces: canaima-accesibilidad
 Provides: canaima-accesibilidad
-Description: Metapaquete de accesibilidad para Canaima GNU/Linux
+Description: Metapaquete de accesibilidad completa para Canaima GNU/Linux
  Este paquete provee los meta-paquetes de accesibilidad visual,
  cognitiva y fisicomotora.
 
@@ -25,29 +25,26 @@ Depends:  dasher, gok, gnome-orca, ${shlibs:Depends}, ${misc:Depends}
 Conflicts: canaima-accesibilidad
 Replaces: canaima-accesibilidad
 Provides: canaima-accesibilidad
-Description: Metapaquete de accesibilidad para Canaima GNU/Linux
- Este paquete provee los meta-paquetes de accesibilidad visual,
- cognitiva y fisicomotora.
+Description: Metapaquete de accesibilidad mínima para Canaima GNU/Linux
+ Este paquete provee funcionalidad mínima para para la
+ accesibilidad en Canaima GNU/Linux.
 
 Package: canaima-accesibilidad-cognitiva
 Architecture: all
 Depends: gcompris, gcompris-sound-es, childsplay, childsplay-alphabet-sounds-es, ${shlibs:Depends}, ${misc:Depends}
 Recommends: tuxpaint, tuxpaint-config
-Description: Metapaquete de accesibilidad para Canaima GNU/Linux
- Este paquete provee los meta-paquetes de accesibilidad visual,
- cognitiva y fisicomotora.
+Description: Metapaquete de accesibilidad cognitiva para Canaima GNU/Linux
+ Metapaquete de accesibilidad cognitiva para Canaima GNU/Linux
 
 Package: canaima-accesibilidad-visual
 Architecture: all
 Depends: at-spi, brltty, brltty-flite, brltty-speechd, brltty-x11, listen, espeak, festival, festvox-sflpc16k, festvox-palpc16k, freedesktop-sound-theme, gnome-orca, gnome-accessibility-themes, libcolorblind0, libatk1.0-data, sox, gnome-mag, libgail-common, mousetweaks, dots, libatspi1.0-0, libatspi-dev, libgnome-speech7, libgail-gnome-module, python-pyatspi, python-brlapi, python-louis, x-ttcidfont-conf, pidgin-festival, ${shlibs:Depends}, ${misc:Depends}
-Description: Metapaquete de accesibilidad para Canaima GNU/Linux
- Este paquete provee los meta-paquetes de accesibilidad visual,
- cognitiva y fisicomotora.
+Description: Metapaquete de accesibilidad visual para Canaima GNU/Linux
+ Metapaquete de accesibilidad visual para Canaima GNU/Linux
 
 Package: canaima-accesibilidad-motora
 Architecture: all
 Depends: dasher, dasher-data, gok, python-at-spi, libgtk2.0-0, python-glade2, python-gtk2-dbg, python-gtk2-dev, python-gtk2-doc, mousetweaks, ${shlibs:Depends}, ${misc:Depends}
 Recommends: gnome-mousetrap
-Description: Metapaquete de accesibilidad para Canaima GNU/Linux
- Este paquete provee los meta-paquetes de accesibilidad visual,
- cognitiva y fisicomotora.
+Description: Metapaquete de accesibilidad motora para Canaima GNU/Linux
+ Metapaquete de accesibilidad motora para Canaima GNU/Linux
