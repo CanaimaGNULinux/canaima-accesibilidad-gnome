@@ -3,8 +3,9 @@ canaima-accesibilidad-gnome (3.1-3) stable; urgency=low
   * [14d0170] renombrando el paquete, organizando las dependencias en
     general
   * [18c8fee] reorganizando las dependencias
+  * [2c3a242] reorganizando las dependencias
 
- -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 25 Jan 2012 16:44:33 -0430
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 25 Jan 2012 16:46:37 -0430
 
 canaima-accesibilidad-gnome (3.1-2) stable; urgency=low
 
