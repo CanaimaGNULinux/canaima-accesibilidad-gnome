@@ -4,4 +4,4 @@
 	dh ${@}
 
 override_dh_auto_install:
-	$(MAKE) DESTDIR=$(CURDIR)/debian/canaima-accesibilidad-visual install
+	$(MAKE) DESTDIR=$(CURDIR)/debian/canaima-accesibilidad-visual-gnome install
