@@ -16,7 +16,7 @@ Conflicts: canaima-accesibilidad
 Replaces: canaima-accesibilidad
 Provides: canaima-accesibilidad
 Description: Metapaquete de accesibilidad completa para Canaima GNU/Linux
- Este paquete provee los metapaquetes de accesibilidad visual,
+ Este paquete provee los  metapaquetes de accesibilidad visual,
  cognitiva y fisicomotora, (metapackage).
 
 Package: canaima-accesibilidad-minimo-gnome
