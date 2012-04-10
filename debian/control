@@ -21,7 +21,7 @@ Description: Metapaquete de accesibilidad completa para Canaima GNU/Linux
 
 Package: canaima-accesibilidad-minimo-gnome
 Architecture: all
-Depends:  dasher, gok, festival, festvox-sflpc16k, festvox-palpc16k, freedesktop-sound-theme, gnome-orca, ${shlibs:Depends}, ${misc:Depends}
+Depends:  gok, festival, festvox-sflpc16k, festvox-palpc16k, freedesktop-sound-theme, gnome-orca, ${shlibs:Depends}, ${misc:Depends}
 Conflicts: canaima-accesibilidad
 Replaces: canaima-accesibilidad
 Provides: canaima-accesibilidad
