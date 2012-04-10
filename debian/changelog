@@ -1,3 +1,10 @@
+canaima-accesibilidad-gnome (3.1-4) stable; urgency=low
+
+  * [328950d] removimos del canaima-acce-minimo a dasher
+  * [df7175b] se remueve dasher del canaima-acc-minimo
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 10 Apr 2012 15:22:31 -0430
+
 canaima-accesibilidad-gnome (3.1-3) stable; urgency=low
 
   * [14d0170] renombrando el paquete, organizando las dependencias en
