@@ -1,3 +1,11 @@
+canaima-accesibilidad-gnome (3.1-6) stable; urgency=low
+
+  * [ba514bb] imcorporando removiendo dependencia voz de pedro,
+    incorporando dependencias en el mata-minimo daltonismo y temas se
+    resuelve ticket 459
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 29 May 2012 14:53:19 -0430
+
 canaima-accesibilidad-gnome (3.1-5) stable; urgency=low
 
   * [ceb86ab] removiendo carpeta de sonido, y actializando dependencias
