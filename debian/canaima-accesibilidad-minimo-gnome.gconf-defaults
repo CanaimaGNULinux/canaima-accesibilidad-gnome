@@ -1,3 +1,17 @@
+# Se Activa Orca en el Gdm3 --Francisco Vasquez G. Esta Acción la realizara el instalador de canaima
+#/desktop/gnome/applications/at/screen_reader_enabled true 
+# -------------------------------------------------------
+# Inicio Automatico de Gnome-orca --Francisco Vasquez G.
+
+/desktop/gnome/interface/accessibility true	
+#--------------------------------------------------------
+# Desactivar Valor del panel por parte del estilo visual de canaima --Francisco Vasquez G.
+
+/apps/metacity/global_keybindings/show_desktop disabled
+/apps/metacity/global_keybindings/panel_main_menu disabled
+#--------------------------------------------------------
+
+ 
 /desktop/gnome/accessibility/keyboard/enable "true"
 
 /apps/metacity/keybinding_commands/command_1 "orca -d main-window"

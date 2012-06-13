@@ -1,0 +1,59 @@
+#!/bin/bash -e
+#
+# ==============================================================================
+# PAQUETE: canaima-accesibilidad-visual-gnome
+# ARCHIVO: postrm
+# DESCRIPCIÓN: Configura canaima-accesibilidad-visual-gnome.
+#              
+# COPYRIGHT:
+#  (C) 2011 Francisco Vasquez Guerrero <franjvasquezg@gmail.com>
+# LICENCIA: GPL3
+# ==============================================================================
+#
+# Este programa es software libre. Puede redistribuirlo y/o modificarlo bajo los
+# términos de la Licencia Pública General de GNU (versión 3).
+
+PKG="canaima-accesibilidad-visual-gnome"
+
+case ${1} in
+
+	purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+	
+               for HOME_U in /home/*?; do
+	                USUARIO=$(basename ${HOME_U})
+
+                # Y en caso de que el usuario sea un usuario activo (existente en /etc/shadow) ...
+                        if [ $( grep -c "${USUARIO}:.*:.*:.*:.*:.*:::" /etc/shadow ) == 1 ] \
+                        && [ $( grep -c "${USUARIO}:.*:.*:.*:.*:.*:/bin/.*sh" /etc/passwd ) == 1 ] \
+                        && [ -d ${HOME_U}/.config ] \
+                        && [ -d ${HOME_U}/Escritorio ] \
+                        && [ -d ${HOME_U} ]; then
+
+                                        if [ -d /home/${USUARIO}/.orca ] ; then
+                                                rm -R /usr/share/canaima-accesibilidad-visual-gnome/
+						rm -R /home/${USUARIO}/.orca/
+                                                
+                                        else
+                                                echo "No existe los directorios a eliminar"
+                                        fi
+                        fi
+                done
+
+        # Aquí va lo que el paquete debe configurar/crear/borrar después de
+        # removerse. Lenguaje a usar: BASH.
+
+	;;
+
+	*)
+
+		echo "postrm no reconoce el argumento '"${1}"'" >&2
+		exit 1
+	;;
+
+esac
+
+exit 0
+
+#DEBHELPER#
+
+
