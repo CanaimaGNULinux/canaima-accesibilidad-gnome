@@ -13,8 +13,11 @@ canaima-accesibilidad-gnome (3.2-1) stable; urgency=low
   * [a548be4] nueva versión, imporporando mejoras de la 6ta cayapa
     barinas, nuevos archivos del mantenedor para los paquetes minimo y
     visual de accesibilidad
+  * [9d51f89] nueva versión, imporporando mejoras de la 6ta cayapa
+    barinas, nuevos archivos del mantenedor para los paquetes minimo y
+    visual de accesibilidad
 
- -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 13 Jun 2012 15:09:09 -0430
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 13 Jun 2012 15:11:12 -0430
 
 canaima-accesibilidad-gnome (3.1-6) stable; urgency=low
 
