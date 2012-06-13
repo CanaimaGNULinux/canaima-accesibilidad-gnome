@@ -8,4 +8,4 @@ override_dh_auto_install:
 	$(MAKE) DESTDIR=$(CURDIR)/debian/canaima-accesibilidad-visual-gnome install-visual
 
 override_dh_gconf:
-        dh_gconf --priority=25
+	dh_gconf --priority=25
