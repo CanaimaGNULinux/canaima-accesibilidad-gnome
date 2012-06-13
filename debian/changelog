@@ -1,3 +1,13 @@
+canaima-accesibilidad-gnome (3.2-1) stable; urgency=low
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [7220719] Nueva versión de canaima accesibilidad incorporando
+    cambios sugeridos de la 6ta cayapa barinas
+
+  [ Francisco Javier Vasquez Guerrero ]
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@franciscovasquez.cnti.gob.ve>  Wed, 13 Jun 2012 14:57:29 -0430
+
 canaima-accesibilidad-gnome (3.1-6) stable; urgency=low
 
   * [ba514bb] imcorporando removiendo dependencia voz de pedro,
