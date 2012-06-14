@@ -17,10 +17,10 @@ install-minimo:
 
 install-visual:
 
-        mkdir -p $(DESTDIR)/usr/share/canaima-accesibilidad-visual-gnome/
-        cp -r conf $(DESTDIR)/usr/share/canaima-accesibilidad-visual-gnome/
-        mkdir -p $(DESTDIR)/usr/share/fonts/truetype/braille/
-        cp conf/fonts/*.ttf $(DESTDIR)/usr/share/fonts/truetype/braille/
+	mkdir -p $(DESTDIR)/usr/share/canaima-accesibilidad-visual-gnome/
+	cp -r conf $(DESTDIR)/usr/share/canaima-accesibilidad-visual-gnome/
+	mkdir -p $(DESTDIR)/usr/share/fonts/truetype/braille/
+	cp conf/fonts/*.ttf $(DESTDIR)/usr/share/fonts/truetype/braille/
 		
 
 uninstall:
