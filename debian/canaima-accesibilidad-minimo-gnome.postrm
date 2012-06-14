@@ -19,7 +19,7 @@ case ${1} in
 
 	purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
 	
-			   for HOME_U in /home/*?; do
+			for HOME_U in /home/*?; do
 					USUARIO=$(basename ${HOME_U})
 
 				# Y en caso de que el usuario sea un usuario activo (existente en /etc/shadow) ...
@@ -29,15 +29,15 @@ case ${1} in
 						&& [ -d ${HOME_U}/Escritorio ] \
 						&& [ -d ${HOME_U} ]; then
 
-										if [ -d /home/${USUARIO}/.orca ] ; then
-												rm -R /usr/share/canaima-accesibilidad-minimo-gnome/
-						rm -R /home/${USUARIO}/.orca/
+							if [ -d /home/${USUARIO}/.orca ] ; then
+								rm -R /usr/share/canaima-accesibilidad-minimo-gnome/
+								rm -R /home/${USUARIO}/.orca/
 												
-										else
-												echo "No existe los directorios a eliminar"
-										fi
+							else
+								echo "No existe los directorios a eliminar"
+							fi
 						fi
-				done
+			done
 
 		# Aquí va lo que el paquete debe configurar/crear/borrar después de
 		# removerse. Lenguaje a usar: BASH.

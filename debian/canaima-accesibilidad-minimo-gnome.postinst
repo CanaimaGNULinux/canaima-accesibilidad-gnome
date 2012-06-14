@@ -18,38 +18,38 @@ case ${1} in
 
 	configure)
 
-				for HOME_U in /home/*?; do
-						USUARIO=$(basename ${HOME_U})
+			for HOME_U in /home/*?; do
+				USUARIO=$(basename ${HOME_U})
 
 				# Y en caso de que el usuario sea un usuario activo (existente en /etc/shadow) ...
-						if [ $( grep -c "${USUARIO}:.*:.*:.*:.*:.*:::" /etc/shadow ) == 1 ] \
-						&& [ $( grep -c "${USUARIO}:.*:.*:.*:.*:.*:/bin/.*sh" /etc/passwd ) == 1 ] \
-						&& [ -d ${HOME_U}/.config ] \
-						&& [ -d ${HOME_U}/Escritorio ] \
-						&& [ -d ${HOME_U} ]; then
+				if [ $( grep -c "${USUARIO}:.*:.*:.*:.*:.*:::" /etc/shadow ) == 1 ] \
+				&& [ $( grep -c "${USUARIO}:.*:.*:.*:.*:.*:/bin/.*sh" /etc/passwd ) == 1 ] \
+				&& [ -d ${HOME_U}/.config ] \
+				&& [ -d ${HOME_U}/Escritorio ] \
+				&& [ -d ${HOME_U} ]; then
 
-										if [ -d /home/${USUARIO}/.orca ] ; then
-												cp -R /usr/share/canaima-accesibilidad-minimo-gnome/conf/orca/* /home/${USUARIO}/.orca/
-												chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*
-										else
-												echo "No existe el directorio .orca"
-										fi
+						if [ -d /home/${USUARIO}/.orca ] ; then
+							cp -R /usr/share/canaima-accesibilidad-minimo-gnome/conf/orca/* /home/${USUARIO}/.orca/
+							chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*
+						else
+							echo "No existe el directorio .orca"
 						fi
-				done
-				;;
-		abort-upgrade|abort-remove|abort-deconfigure)
+				fi
+			done
+	;;
+	abort-upgrade|abort-remove|abort-deconfigure)
 
 		# Aquí va lo que el paquete debe configurar/crear/borrar en caso
 		# de abortarse la instalación. Lenguaje a usar: BASH.
 
-		;;
+	;;
 
-		*)
+	*)
 
-				echo "postinst no reconoce el argumento '"${1}"'" >&2
-				exit 1
+		echo "postinst no reconoce el argumento '"${1}"'" >&2
+		exit 1
 
-		;;
+	;;
 
 esac
 
