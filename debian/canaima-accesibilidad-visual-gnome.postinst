@@ -29,10 +29,17 @@ case ${1} in
 				&& [ -d ${HOME_U} ]; then
 
 						if [ -d /home/${USUARIO}/.orca ] ; then
+							#rm -f /home/${USUARIO}/.orca/*	
 							cp -R /usr/share/canaima-accesibilidad-visual-gnome/conf/orca/* /home/${USUARIO}/.orca/
 							chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*
 						else
 							echo "No existe el directorio .orca"
+							echo "Creando directorio .orca"
+							mkdir -p /home/${USUARIO}/.orca
+							cp -R /usr/share/canaima-accesibilidad-visual-gnome/conf/orca/* /home/${USUARIO}/.orca/
+                                                        chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*	
+							
+							
 						fi
 				fi
 			done

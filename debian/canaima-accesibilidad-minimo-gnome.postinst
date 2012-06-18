@@ -33,6 +33,10 @@ case ${1} in
 							chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*
 						else
 							echo "No existe el directorio .orca"
+							echo "Creando directorio .orca"
+                                                        mkdir -p /home/${USUARIO}/.orca
+                                                        cp -R /usr/share/canaima-accesibilidad-minimo-gnome/conf/orca/* /home/${USUARIO}/.orca/
+                                                        chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*
 						fi
 				fi
 			done
