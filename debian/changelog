@@ -1,3 +1,9 @@
+canaima-accesibilidad-gnome (3.2-6) stable; urgency=low
+
+  * [8eb92f3] reconfigurando postrm en visual y minimo
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Mon, 18 Jun 2012 14:40:57 -0430
+
 canaima-accesibilidad-gnome (3.2-5) stable; urgency=low
 
   * [7d3c6f4] incorporando comando para activar gdm3 accesible en el
