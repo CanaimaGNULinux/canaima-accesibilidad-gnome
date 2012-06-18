@@ -1,3 +1,9 @@
+canaima-accesibilidad-gnome (3.2-3) stable; urgency=low
+
+  * [b3becbf] expresando conflicto con canaima-minimo
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Mon, 18 Jun 2012 11:17:23 -0430
+
 canaima-accesibilidad-gnome (3.2-2) stable; urgency=low
 
   * [df86a07] Actualizando comando de entradas de libreoffice en gconf
