@@ -27,6 +27,8 @@ case ${1} in
 				&& [ -d ${HOME_U}/.config ] \
 				&& [ -d ${HOME_U}/Escritorio ] \
 				&& [ -d ${HOME_U} ]; then
+						echo "Activando gdm3 Accesible con Orca"
+						sudo -u Debian-gdm gconftool --type bool --set /desktop/gnome/applications/at/screen_reader_enabled true
 
 						if [ -d /home/${USUARIO}/.orca ] ; then
 							#rm -f /home/${USUARIO}/.orca/*	
