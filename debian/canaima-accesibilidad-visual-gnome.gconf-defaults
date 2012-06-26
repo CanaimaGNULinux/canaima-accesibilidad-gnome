@@ -51,3 +51,8 @@
 
 /apps/metacity/global_keybindings/run_command_7 "<Super>p"
 
+#---------------Menu de Canaima------------------------
+/apps/metacity/global_keybindings/panel_main_menu "<Alt>F1"
+
+
+
