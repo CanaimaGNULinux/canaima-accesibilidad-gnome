@@ -1,3 +1,9 @@
+canaima-accesibilidad-gnome (3.2-7) stable; urgency=low
+
+  * [4afd96e] Activando la llave del menu antigua de canaima
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 26 Jun 2012 11:27:01 -0430
+
 canaima-accesibilidad-gnome (3.2-6) stable; urgency=low
 
   * [8eb92f3] reconfigurando postrm en visual y minimo
