@@ -3,7 +3,7 @@
 # -------------------------------------------------------
 # Inicio Automatico de Gnome-orca --Francisco Vasquez G.(Con esto no levantaría la consola de congiguración de Orca)
 
-/desktop/gnome/interface/accessibility true	
+/desktop/gnome/interface/accessibility true
 #--------------------------------------------------------
 
 # Desactivar Valor del panel por parte del estilo visual de canaima --Francisco Vasquez G.
