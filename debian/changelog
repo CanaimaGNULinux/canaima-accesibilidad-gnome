@@ -1,8 +1,13 @@
 canaima-accesibilidad-gnome (3.2-7) stable; urgency=low
 
+  [ Francisco Javier Vásquez Guerrero ]
   * [4afd96e] Activando la llave del menu antigua de canaima
 
- -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 26 Jun 2012 11:27:01 -0430
+  [ Luis Alejandro Martínez Faneyth ]
+  * [820e889] Corrigiendo error de sintaxis en canaima-accesibilidad-
+    minimo-gnome.gconf-defaults.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Wed, 04 Jul 2012 17:07:17 -0430
 
 canaima-accesibilidad-gnome (3.2-6) stable; urgency=low
 
