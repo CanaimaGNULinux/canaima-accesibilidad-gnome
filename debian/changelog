@@ -1,3 +1,9 @@
+canaima-accesibilidad-gnome (3.2-8) stable; urgency=low
+
+  * [f72072a] Removiendo platillas de README y TODO.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Thu, 05 Jul 2012 14:26:48 -0430
+
 canaima-accesibilidad-gnome (3.2-7) stable; urgency=low
 
   [ Francisco Javier Vásquez Guerrero ]
