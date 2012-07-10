@@ -1,15 +1,26 @@
+canaima-accesibilidad-gnome (3.2-9) stable; urgency=low
+
+  * [d2996cd] Removiendo dependencia a gok para disminuir el peso de la
+    ISO.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Sat, 07 Jul 2012 02:05:11 -0430
+
 canaima-accesibilidad-gnome (3.2-8) stable; urgency=low
 
-  * [19b2ee5] Eliminando dependencia teclado en pantalla se instalara
-    como aplicación extendida
+  * [f72072a] Removiendo platillas de README y TODO.
 
- -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 10 Jul 2012 11:38:53 -0430
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Thu, 05 Jul 2012 14:26:48 -0430
 
 canaima-accesibilidad-gnome (3.2-7) stable; urgency=low
 
+  [ Francisco Javier Vásquez Guerrero ]
   * [4afd96e] Activando la llave del menu antigua de canaima
 
- -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 26 Jun 2012 11:27:01 -0430
+  [ Luis Alejandro Martínez Faneyth ]
+  * [820e889] Corrigiendo error de sintaxis en canaima-accesibilidad-
+    minimo-gnome.gconf-defaults.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Wed, 04 Jul 2012 17:07:17 -0430
 
 canaima-accesibilidad-gnome (3.2-6) stable; urgency=low
 
