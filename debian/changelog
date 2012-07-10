@@ -1,3 +1,10 @@
+canaima-accesibilidad-gnome (3.2-8) stable; urgency=low
+
+  * [19b2ee5] Eliminando dependencia teclado en pantalla se instalara
+    como aplicación extendida
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 10 Jul 2012 11:38:53 -0430
+
 canaima-accesibilidad-gnome (3.2-7) stable; urgency=low
 
   * [4afd96e] Activando la llave del menu antigua de canaima
