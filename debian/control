@@ -26,9 +26,9 @@ Recommends: freedesktop-sound-theme
 Conflicts: canaima-accesibilidad
 Replaces: canaima-accesibilidad
 Provides: canaima-accesibilidad
-Description: Metapaquete de accesibilidad mínima para Canaima GNU/Linux
+Description: Metapaquete de accesibilidad  mínima  para Canaima GNU/Linux
  Este paquete provee funcionalidad mínima para la
- accesibilidad en Canaima GNU/Linux, (metapackage).
+ accesibilidad en  Canaima GNU/Linux, (metapackage).
 
 Package: canaima-accesibilidad-cognitiva-gnome
 Architecture: all
