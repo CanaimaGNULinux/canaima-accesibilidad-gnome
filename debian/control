@@ -37,6 +37,7 @@ Conflicts: canaima-accesibilidad
 Replaces: canaima-accesibilidad
 Provides: canaima-accesibilidad
 Description: Paquete de confguración para un gdm accesible
+ solo trae la llave para activa gnome-orca en el gdm3.
 
 Package: canaima-accesibilidad-cognitiva-gnome
 Architecture: all
