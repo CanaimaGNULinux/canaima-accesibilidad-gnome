@@ -1,3 +1,11 @@
+canaima-accesibilidad-gnome (3.2-11) stable; urgency=low
+
+  * [a715ae6] creando paquete de configuración para el instalador de
+    canaima eliminamos la dependencia de gnome-orca del minimi y lo
+    colocamos en los perfiles del del sabor canaima popular
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 11 Jul 2012 14:02:01 -0430
+
 canaima-accesibilidad-gnome (3.2-10) stable; urgency=low
 
   * [0082a7a] Eliminando dependencia teclado en pantalla se instalara
