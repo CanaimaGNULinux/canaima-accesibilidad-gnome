@@ -38,6 +38,10 @@ case ${1} in
                                                         cp -R /usr/share/canaima-accesibilidad-minimo-gnome/conf/orca/* /home/${USUARIO}/.orca/
                                                         chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*
 						fi
+						if [ -e /usr/lib/pymodules/python2.6/orca/settings.py ] ; then
+							sed -i 's/timeoutTime             = 10/timeoutTime             = 30/' \
+							/usr/lib/pymodules/python2.6/orca/settings.py
+						fi 
 				fi
 			done
 	;;
