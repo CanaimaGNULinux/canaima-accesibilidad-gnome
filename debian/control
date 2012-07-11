@@ -21,7 +21,7 @@ Description: Metapaquete de accesibilidad completa para Canaima GNU/Linux
 
 Package: canaima-accesibilidad-minimo-gnome
 Architecture: all
-Depends:  festival, festvox-sflpc16k, libcolorblind0, canaima-fuentes-extras, gnome-accessibility-themes, gnome-orca, ${shlibs:Depends}, ${misc:Depends}
+Depends:  festival, festvox-sflpc16k, libcolorblind0, canaima-fuentes-extras, gnome-accessibility-themes, ${shlibs:Depends}, ${misc:Depends}
 Recommends: freedesktop-sound-theme
 Conflicts: canaima-accesibilidad
 Replaces: canaima-accesibilidad
@@ -29,6 +29,14 @@ Provides: canaima-accesibilidad
 Description: Metapaquete de accesibilidad  mínima  para Canaima GNU/Linux
  Este paquete provee funcionalidad mínima para la
  accesibilidad en  Canaima GNU/Linux, (metapackage).
+
+Package: canaima-accesibilidad-gdm-gnome
+Architecture: all
+Depends:  ${shlibs:Depends}, ${misc:Depends}
+Conflicts: canaima-accesibilidad
+Replaces: canaima-accesibilidad
+Provides: canaima-accesibilidad
+Description: Paquete de confguración para un gdm accesible
 
 Package: canaima-accesibilidad-cognitiva-gnome
 Architecture: all
