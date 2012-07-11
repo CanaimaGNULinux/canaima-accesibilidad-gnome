@@ -1,3 +1,11 @@
+canaima-accesibilidad-gnome (3.2-13) stable; urgency=low
+
+  * [fe0343a] corrigiendo bug de orca de la variable timeoutTime en el
+    fichero /usr/lib/pymodules/python2.6/orca/settings.py aumentado
+    segun recomendación a 30 en los postinstall de minimo y visual
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 11 Jul 2012 16:46:35 -0430
+
 canaima-accesibilidad-gnome (3.2-12) stable; urgency=low
 
   * [1082b3f] corrigiendo error de la descripción
