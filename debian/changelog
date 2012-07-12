@@ -1,3 +1,11 @@
+canaima-accesibilidad-gnome (3.2-14) stable; urgency=low
+
+  * [da9da65] Eliminando paquete accesibilidad gdm separado con el fin
+    de crear una nueva entra en gconf de canaima para activar la llave
+    para gdm accesible cuando en el instaldor lo activen como opción
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Thu, 12 Jul 2012 16:05:18 -0430
+
 canaima-accesibilidad-gnome (3.2-13) stable; urgency=low
 
   * [fe0343a] corrigiendo bug de orca de la variable timeoutTime en el
