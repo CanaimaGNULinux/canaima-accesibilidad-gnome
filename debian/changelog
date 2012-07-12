@@ -4,7 +4,7 @@ canaima-accesibilidad-gnome (3.2-14) stable; urgency=low
     de crear una nueva entra en gconf de canaima para activar la llave
     para gdm accesible cuando en el instaldor lo activen como opción
 
- -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Thu, 12 Jul 2012 16:05:18 -0430
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Thu, 12 Jul 2012 16:16:14 -0430
 
 canaima-accesibilidad-gnome (3.2-13) stable; urgency=low
 
