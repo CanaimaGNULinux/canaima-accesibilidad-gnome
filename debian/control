@@ -21,7 +21,7 @@ Description: Metapaquete de accesibilidad completa para Canaima GNU/Linux
 
 Package: canaima-accesibilidad-minimo-gnome
 Architecture: all
-Depends:  festival, festvox-sflpc16k, libcolorblind0, gnome-accessibility-themes, gnome-mag, canaima-acces-min-config, ${shlibs:Depends}, ${misc:Depends}
+Depends:  festival, festvox-sflpc16k, libcolorblind0, sound-theme-freedesktop, gnome-accessibility-themes, gnome-mag, canaima-acces-min-config, ${shlibs:Depends}, ${misc:Depends}
 Recommends: freedesktop-sound-theme
 Conflicts: canaima-accesibilidad
 Replaces: canaima-accesibilidad
@@ -42,7 +42,7 @@ Description: Metapaquete de accesibilidad cognitiva para Canaima GNU/Linux
 
 Package: canaima-accesibilidad-visual-gnome
 Architecture: all
-Depends: at-spi, brltty, brltty-flite, brltty-speechd, brltty-x11, festival, festvox-sflpc16k, freedesktop-sound-theme, gnome-accessibility-themes, libcolorblind0, libatk1.0-data, libgail-common, mousetweaks, dots, libatspi1.0-0, libatspi-dev, libgnome-speech7, x-ttcidfont-conf, pidgin-festival, canaima-acces-visual-config, ${shlibs:Depends}, ${misc:Depends}
+Depends: at-spi, brltty, brltty-flite, brltty-speechd, brltty-x11, festival, festvox-sflpc16k, sound-theme-freedesktop, gnome-accessibility-themes, libcolorblind0, libatk1.0-data, libgail-common, mousetweaks, dots, libatspi1.0-0, libatspi-dev, libgnome-speech7, x-ttcidfont-conf, pidgin-festival, canaima-acces-visual-config, ${shlibs:Depends}, ${misc:Depends}
 Conflicts: canaima-accesibilidad-minimo-gnome, canaima-accesibilidad
 Replaces: canaima-accesibilidad-minimo-gnome, canaima-accesibilidad
 Provides: canaima-accesibilidad-minimo-gnome, canaima-accesibilidad
