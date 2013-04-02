@@ -25,8 +25,8 @@ install-visual:
 
 uninstall:
 
-	#rm -rf $(DESTDIR)/usr/share/canaima-accesibilidad-minimo-gnome/
-	#rm -rf $(DESTDIR)/usr/share/canaima-accesibilidad-visual-gnome/
+	rm -rf $(DESTDIR)/usr/share/canaima-accesibilidad-minimo-gnome/
+	rm -rf $(DESTDIR)/usr/share/canaima-accesibilidad-visual-gnome/
 
 clean:
 
