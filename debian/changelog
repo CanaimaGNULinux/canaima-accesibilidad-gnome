@@ -1,3 +1,9 @@
+canaima-accesibilidad-gnome (3.2-16) stable; urgency=low
+
+  * [b03abca] metapaquetes para canaima 4.0
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 02 Apr 2013 21:08:09 +0000
+
 canaima-accesibilidad-gnome (3.2-15) stable; urgency=low
 
   * [0f02384] pre depende de gnome-orca
