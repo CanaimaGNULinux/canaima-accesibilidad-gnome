@@ -3,7 +3,7 @@ canaima-accesibilidad-gnome (3.2-19) stable; urgency=low
   * [6b1d538] removemos freedesktop-sound-theme y colocamos 
     sound-theme-freedesktop al minimo y al visual
 
- -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 02 Apr 2013 21:23:45 +0000
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 03 Apr 2013 19:56:10 +0000
 
 canaima-accesibilidad-gnome (3.2-18) stable; urgency=low
 
