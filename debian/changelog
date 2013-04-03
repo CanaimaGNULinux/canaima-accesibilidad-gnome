@@ -1,3 +1,9 @@
+canaima-accesibilidad-gnome (3.3-1) stable; urgency=low
+
+  * removemos llave gconf 
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 03 Apr 2013 15:30:10 +0000
+
 canaima-accesibilidad-gnome (3.2-19) stable; urgency=low
 
   * [6b1d538] removemos freedesktop-sound-theme y colocamos 
