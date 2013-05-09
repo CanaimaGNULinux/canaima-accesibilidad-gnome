@@ -20,7 +20,6 @@ Architecture: all
 Depends: gnome-orca,
          festival,
          festvox-sflpc16k,
-         libcolorblind0,
          sound-theme-freedesktop,
          gnome-accessibility-themes,
          gnome-mag,
