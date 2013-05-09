@@ -1,3 +1,9 @@
+canaima-accesibilidad-gnome (4.0+1) stable; urgency=low
+
+  * [8128235] Ajustando dependencias para la primera versión alpha de Canaima 4.0.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Fri, 03 May 2013 14:47:40 -0430
+
 canaima-accesibilidad-gnome (3.3-1) stable; urgency=low
 
   * removemos llave gconf 
