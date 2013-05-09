@@ -1,3 +1,13 @@
+canaima-accesibilidad-gnome (4.0+2) kerepakupai; urgency=low
+
+  * [531be08] Corrigiendo el arbol de dependencias para Canaima 4 Alfa 1.
+    Se eliminaron algunas dependencias que ya no son necesarias
+    y se removieron los conflictos con los antiguos paqietes de
+    canaima accesibilidad.
+  * [0268c33] Cambiando el formato de debian/source/format a nativo
+
+ -- Erick Birbe <erickcion@gmail.com>  Thu, 09 May 2013 10:47:11 -0430
+
 canaima-accesibilidad-gnome (4.0+1) stable; urgency=low
 
   * [8128235] Ajustando dependencias para la primera versión alpha de Canaima 4.0.
