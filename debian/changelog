@@ -1,3 +1,9 @@
+canaima-accesibilidad-gnome (4.0+3) kerepakupai; urgency=low
+
+  * [6f2427f] Agregando at-spi2-core como dependencia para orca
+
+ -- Erick Birbe <erickcion@gmail.com>  Fri, 10 May 2013 13:58:35 -0430
+
 canaima-accesibilidad-gnome (4.0+2) kerepakupai; urgency=low
 
   * [531be08] Corrigiendo el arbol de dependencias para Canaima 4 Alfa 1.
