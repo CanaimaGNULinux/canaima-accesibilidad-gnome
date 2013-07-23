@@ -1,7 +1,8 @@
 Source: canaima-accesibilidad-gnome
 Section: misc
 Priority: extra
-Maintainer: Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Uploaders: Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.4
 Homepage: http://canaima.softwarelibre.gob.ve/
@@ -19,11 +20,10 @@ Package: canaima-accesibilidad-minimo-gnome
 Architecture: all
 Depends: gnome-orca,
          festival,
-         festvox-sflpc16k,
+         festvox-sflpc16k (>= 1.0.0Canaima1+5),
          sound-theme-freedesktop,
          gnome-accessibility-themes,
-         gnome-mag,
-         nela, 
+         gnome-mag, 
          at-spi2-core,
          ${misc:Depends}
 Description: Metapaquete de accesibilidad  mínima  para Canaima GNU/Linux
@@ -49,7 +49,7 @@ Depends: at-spi2-core,
          brltty-speechd,
          brltty-x11,
          festival,
-         festvox-sflpc16k,
+         festvox-sflpc16k (>= 1.0.0Canaima1+5),
          sound-theme-freedesktop,
          gnome-accessibility-themes,
          gnome-mag,
@@ -60,7 +60,6 @@ Depends: at-spi2-core,
          libatspi1.0-0,
          libatspi-dev,
          libgnome-speech7,
-         nela,
          ${misc:Depends}
 Description: Metapaquete de accesibilidad visual para Canaima GNU/Linux
  (metapackage). 
