@@ -1,3 +1,15 @@
+canaima-accesibilidad-gnome (4.0+4) kerepakupai; urgency=low
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [6d1831b] removemos
+  * [1e916d7] removemos libcolorblind0 por ser dependencia de gnome-mag en canaima accesibilidad gnome visual
+  * [49a3ad9] nueva dependencia en accesibiidad visual
+  * [0338e45] removemos nela y agregamos versión de fesvox silvia para canaima
+
+  [ francisco vasquez ]
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 23 Jul 2013 10:34:39 -0430
+
 canaima-accesibilidad-gnome (4.0+3) kerepakupai; urgency=low
 
   * [6f2427f] Agregando at-spi2-core como dependencia para orca
