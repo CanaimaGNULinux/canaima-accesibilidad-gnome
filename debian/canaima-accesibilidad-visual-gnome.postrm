@@ -29,7 +29,7 @@ case ${1} in
 					&& [ -d ${HOME_U}/Escritorio ] \
 					&& [ -d ${HOME_U} ]; then
 
-						if [ -d /home/${USUARIO}/.orca ] && [ -d /usr/share/canaima-accesibilidad-visual-gnome ]; then
+						if [ -d /home/${USUARIO}/.orca ] || [ -d /usr/share/canaima-accesibilidad-visual-gnome ]; then
 							rm -R /usr/share/canaima-accesibilidad-visual-gnome/
 							rm -R /home/${USUARIO}/.orca/
 												
