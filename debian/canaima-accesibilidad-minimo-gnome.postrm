@@ -28,14 +28,16 @@ case ${1} in
 						&& [ -d ${HOME_U}/.config ] \
 						&& [ -d ${HOME_U}/Escritorio ] \
 						&& [ -d ${HOME_U} ]; then
+							
+							echo "finalizada la desintalación"
 
-							if [ -d /home/${USUARIO}/.orca ] || [ -d /usr/share/canaima-accesibilidad-minimo-gnome ; then
-								rm -R /usr/share/canaima-accesibilidad-minimo-gnome/
-								rm -R /home/${USUARIO}/.orca/
+							#if [ -d /home/${USUARIO}/.orca ] || [ -d /usr/share/canaima-accesibilidad-minimo-gnome ; then
+								#rm -R /usr/share/canaima-accesibilidad-minimo-gnome/
+								#rm -R /home/${USUARIO}/.orca/
 												
-							else
-								echo "No existe los directorios a eliminar"
-							fi
+							#else
+							#	echo "No existe los directorios a eliminar"
+							#fi
 						fi
 			done
 

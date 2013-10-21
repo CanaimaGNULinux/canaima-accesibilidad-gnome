@@ -49,6 +49,7 @@ case ${1} in
                                                 fi
 				fi
 			done
+			cp -r /usr/share/canaima-accesibilidad-minimo-gnome/conf/fonts/*.ttf /usr/share/fonts/truetype/braille/
 		;;
 		abort-upgrade|abort-remove|abort-deconfigure)
 

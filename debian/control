@@ -1,6 +1,6 @@
 Source: canaima-accesibilidad-gnome
-Section: misc
-Priority: extra
+Section: gnome
+Priority: optional
 Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
 Uploaders: Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>
 Build-Depends: debhelper (>= 9)
@@ -9,37 +9,19 @@ Homepage: http://canaima.softwarelibre.gob.ve/
 Vcs-Git: git://gitorious.org/canaima-gnu-linux/canaima-accesibilidad-gnome.git
 Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-accesibilidad-gnome/trees/master
 
-Package: canaima-accesibilidad-full-gnome
-Architecture: all
-Depends: canaima-accesibilidad-cognitiva-gnome, canaima-accesibilidad-motora-gnome, canaima-accesibilidad-visual-gnome, canaima-accesibilidad-auditiva-gnome, ${misc:Depends}
-Description: Metapaquete de accesibilidad completa para Canaima GNU/Linux
- Este paquete provee los  metapaquetes de accesibilidad visual,
- cognitiva y fisicomotora, (metapackage).
-
 Package: canaima-accesibilidad-minimo-gnome
 Architecture: all
 Depends: gnome-orca,
-         festival,
          festvox-sflpc16k (>= 1.0.0Canaima1+9),
          sound-theme-freedesktop,
          gnome-accessibility-themes,
          gnome-mag, 
          at-spi2-core,
-         ${misc:Depends}
+         ${misc:Depends},
+         ${python:Depends}
 Description: Metapaquete de accesibilidad  mínima  para Canaima GNU/Linux
  Este paquete provee funcionalidad mínima para la
  accesibilidad en  Canaima GNU/Linux, (metapackage).
-
-Package: canaima-accesibilidad-cognitiva-gnome
-Architecture: all
-Depends: gcompris,
-         gcompris-sound-es,
-         childsplay,
-         childsplay-alphabet-sounds-es,
-         ${misc:Depends}
-Recommends: tuxpaint, tuxpaint-config
-Description: Metapaquete de accesibilidad cognitiva para Canaima GNU/Linux
- (metapackage).
 
 Package: canaima-accesibilidad-visual-gnome
 Architecture: all
@@ -48,7 +30,6 @@ Depends: at-spi2-core,
          brltty-flite,
          brltty-speechd,
          brltty-x11,
-         festival,
          festvox-sflpc16k (>= 1.0.0Canaima1+9),
          sound-theme-freedesktop,
          gnome-accessibility-themes,
@@ -60,27 +41,9 @@ Depends: at-spi2-core,
          libatspi1.0-0,
          libatspi-dev,
          libgnome-speech7,
-         ${misc:Depends}
+         ${misc:Depends},
+         ${python:Depends}
 Description: Metapaquete de accesibilidad visual para Canaima GNU/Linux
  (metapackage). 
 
-Package: canaima-accesibilidad-motora-gnome
-Architecture: all
-Depends: dasher,
-         dasher-data,
-         python-at-spi,
-         libgtk2.0-0,
-         python-glade2,
-         python-gtk2-dbg,
-         python-gtk2-dev,
-         python-gtk2-doc,
-         mousetweaks,
-         ${misc:Depends}
-Description: Metapaquete de accesibilidad motora para Canaima GNU/Linux
- (metapackage).
 
-Package: canaima-accesibilidad-auditiva-gnome
-Architecture: all
-Depends: prometeo-abc, ${misc:Depends}
-Description: Metapaquete de accesibilidad auditiva para Canaima GNU/Linux
- (metapackage).

@@ -1,9 +1,10 @@
 canaima-accesibilidad-gnome (4.0+5) kerepakupai; urgency=low
 
   [ Francisco Javier Vásquez Guerrero ]
-  * [fc9e24c] corrigiendo http://trac.canaima.softwarelibre.gob.ve/canaima/ticket/678
+  * [fc9e24c] corrigiendo http://trac.canaima.softwarelibre.gob.ve/ \
+		canaima/ticket/678
 
-  [  ]
+  [ francisco vasquez ]
 
  --  Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Thu, 26 Sep 2013 21:10:37 +0000
 
