@@ -2,11 +2,12 @@ canaima-accesibilidad-gnome (4.0+7) kerepakupai; urgency=low
 
   [ Francisco Javier Vásquez Guerrero ]
   * [0b6faa5] Update changelog for 4.0+6 release
-  * [30b2fca] removiendo archivos del mantenedor, corrigiendo modo de colocar los archivos de configuración en los usuarios
+  * [30b2fca] removiendo archivos del mantenedor, corrigiendo modo de colocar 
+              los archivos de configuración en los usuarios
 
   [ francisco vasquez ]
 
- -- francisco vasquez <franjvasquezg@gmail.com>  Wed, 23 Oct 2013 13:30:54 -0430
+ --  Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 23 Oct 2013 13:30:54 -0430
 
 canaima-accesibilidad-gnome (4.0+6) kerepakupai; urgency=low
 
