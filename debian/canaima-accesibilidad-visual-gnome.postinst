@@ -30,26 +30,13 @@ case ${1} in
 						#echo "Activando gdm3 Accesible con Orca"
 						#sudo -u Debian-gdm gconftool --type bool --set /desktop/gnome/applications/at/screen_reader_enabled true
 
-						if [ -d /home/${USUARIO}/.orca ] ; then
-							#rm -f /home/${USUARIO}/.orca/*	
-							cp -R /usr/share/canaima-accesibilidad-visual-gnome/conf/orca/* /home/${USUARIO}/.orca/
-							chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*
-						else
-							echo "No existe el directorio .orca"
-							echo "Creando directorio .orca"
-							mkdir -p /home/${USUARIO}/.orca
-							cp -R /usr/share/canaima-accesibilidad-visual-gnome/conf/orca/* /home/${USUARIO}/.orca/
-                                                        chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*	
-							
-							
-						fi
 						if [ -e /usr/lib/pymodules/python2.6/orca/settings.py ] ; then
                                                         sed -i 's/timeoutTime             = 10/timeoutTime             = 30/' \
                                                         /usr/lib/pymodules/python2.6/orca/settings.py
                                                 fi
 				fi
 			done
-			cp -r /usr/share/canaima-accesibilidad-minimo-gnome/conf/fonts/*.ttf /usr/share/fonts/truetype/braille/
+			
 		;;
 		abort-upgrade|abort-remove|abort-deconfigure)
 

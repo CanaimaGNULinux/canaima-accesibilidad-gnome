@@ -74,13 +74,18 @@ Description: Metapaquete de accesibilidad motora para Canaima GNU/Linux
 
 Package: canaima-accesibilidad-auditiva-gnome
 Architecture: all
-Depends: prometeo-abc, ${misc:Depends}
+Depends: prometeo-abc, 
+         ${misc:Depends}
 Description: Metapaquete de accesibilidad auditiva para Canaima GNU/Linux
  (metapackage).
 
 Package: canaima-accesibilidad-full-gnome
 Architecture: all
-Depends: canaima-accesibilidad-cognitiva-gnome, canaima-accesibilidad-motora-gnome, canaima-accesibilidad-visual-gnome, canaima-accesibilidad-auditiva-gnome, ${misc:Depends}
+Depends: canaima-accesibilidad-cognitiva-gnome, 
+         canaima-accesibilidad-motora-gnome, 
+         canaima-accesibilidad-visual-gnome, 
+         canaima-accesibilidad-auditiva-gnome, 
+         ${misc:Depends}
 Description: Metapaquete de accesibilidad completa para Canaima GNU/Linux
  Este paquete provee los  metapaquetes de accesibilidad visual,
  cognitiva y fisicomotora, (metapackage).

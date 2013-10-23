@@ -27,24 +27,14 @@ case ${1} in
 				&& [ -d ${HOME_U}/.config ] \
 				&& [ -d ${HOME_U}/Escritorio ] \
 				&& [ -d ${HOME_U} ]; then
-
-						if [ -d /home/${USUARIO}/.orca ] ; then
-							cp -r /usr/share/canaima-accesibilidad-minimo-gnome/conf/orca/* /home/${USUARIO}/.orca/
-							chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*
-						else
-							echo "No existe el directorio .orca"
-							echo "Creando directorio .orca"
-                                                        mkdir -p /home/${USUARIO}/.orca
-                                                        cp -r /usr/share/canaima-accesibilidad-minimo-gnome/conf/orca/* /home/${USUARIO}/.orca/
-                                                        chown -R ${USUARIO}:${USUARIO} /home/${USUARIO}/.orca/*
-						fi
+				    
 						if [ -e /usr/lib/pymodules/python2.6/orca/settings.py ] ; then
 							sed -i 's/timeoutTime             = 10/timeoutTime             = 30/' \
 							/usr/lib/pymodules/python2.6/orca/settings.py
 						fi 
 				fi
 			done
-			cp -r /usr/share/canaima-accesibilidad-minimo-gnome/conf/fonts/*.ttf /usr/share/fonts/truetype/braille/
+			
 	;;
 	abort-upgrade|abort-remove|abort-deconfigure)
 
