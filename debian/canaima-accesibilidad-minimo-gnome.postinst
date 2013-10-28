@@ -18,7 +18,9 @@ case ${1} in
 
 	configure)
 			
-			dpkg-reconfigure festvox-sflpc16k
+			#dpkg-reconfigure festvox-sflpc16k
+			apt-mark manual festvox-sflpc16k
+			
 
 			for HOME_U in /home/*?; do
 				USUARIO=$(basename ${HOME_U})
