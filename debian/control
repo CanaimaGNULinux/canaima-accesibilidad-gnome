@@ -12,7 +12,7 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-accesibilidad-gnome/
 Package: canaima-accesibilidad-minimo-gnome
 Architecture: all
 Depends: gnome-orca,
-         festvox-sflpc16k (>= 1.0.0Canaima1+9),
+         festvox-sflpc16k (>= 1.0.0Canaima1+10),
          sound-theme-freedesktop,
          gnome-accessibility-themes,
          gnome-mag, 
