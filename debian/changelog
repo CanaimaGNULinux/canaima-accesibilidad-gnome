@@ -1,3 +1,13 @@
+canaima-accesibilidad-gnome (4.0+8) kerepakupai; urgency=low
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [fbede95] cambiando de versión de la voz, y verificando que ademas quede bien configurado
+  * [844ef06] cambiando actividades
+
+  [ francisco vasquez ]
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Mon, 28 Oct 2013 10:59:10 -0430
+
 canaima-accesibilidad-gnome (4.0+7) kerepakupai; urgency=low
 
   [ Francisco Javier Vásquez Guerrero ]
