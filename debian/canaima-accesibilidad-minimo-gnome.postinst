@@ -18,7 +18,7 @@ case ${1} in
 
 	configure)
 			apt-mark manual festvox-sflpc16k
-			apt-mark manula festvox-sflpc16k
+			apt-mark manual festvox-sflpc16k
 			for HOME_U in /home/*?; do
 				USUARIO=$(basename ${HOME_U})
 
