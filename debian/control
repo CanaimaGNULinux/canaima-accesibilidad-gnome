@@ -18,7 +18,6 @@ Depends: gnome-orca,
          at-spi2-core,
          ${misc:Depends},
          ${python:Depends}
-Suggests: festvox-sflpc16k (>= 1.0.0Canaima1+10)
 Description: Metapaquete de accesibilidad  mínima  para Canaima GNU/Linux
  Este paquete provee funcionalidad mínima para la
  accesibilidad en  Canaima GNU/Linux, (metapackage).
@@ -42,7 +41,6 @@ Depends: at-spi2-core,
          libgnome-speech7,
          ${misc:Depends},
          ${python:Depends}
-Suggests: festvox-sflpc16k (>= 1.0.0Canaima1+10)
 Description: Metapaquete de accesibilidad visual para Canaima GNU/Linux
  (metapackage). 
 
