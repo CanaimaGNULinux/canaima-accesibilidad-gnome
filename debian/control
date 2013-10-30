@@ -12,15 +12,13 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-accesibilidad-gnome/
 Package: canaima-accesibilidad-minimo-gnome
 Architecture: all
 Depends: gnome-orca,
-         festvox-sflpc16k (>= 1.0.0Canaima1+10),
          sound-theme-freedesktop,
          gnome-accessibility-themes,
          gnome-mag, 
          at-spi2-core,
-         festival (>= 1.4.3-9),
-         festival-freebsoft-utils (>= 0.10-3),
          ${misc:Depends},
          ${python:Depends}
+Suggests: festvox-sflpc16k (>= 1.0.0Canaima1+10)
 Description: Metapaquete de accesibilidad  mínima  para Canaima GNU/Linux
  Este paquete provee funcionalidad mínima para la
  accesibilidad en  Canaima GNU/Linux, (metapackage).
@@ -31,8 +29,7 @@ Depends: at-spi2-core,
          brltty,
          brltty-flite,
          brltty-speechd,
-         brltty-x11,
-         festvox-sflpc16k (>= 1.0.0Canaima1+10),
+         brltty-x11,         
          sound-theme-freedesktop,
          gnome-accessibility-themes,
          gnome-mag,
@@ -43,10 +40,9 @@ Depends: at-spi2-core,
          libatspi1.0-0,
          libatspi-dev,
          libgnome-speech7,
-         festival (>= 1.4.3-9),
-         festival-freebsoft-utils (>= 0.10-3),
          ${misc:Depends},
          ${python:Depends}
+Suggests: festvox-sflpc16k (>= 1.0.0Canaima1+10)
 Description: Metapaquete de accesibilidad visual para Canaima GNU/Linux
  (metapackage). 
 
